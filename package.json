@@ -1,0 +1,22 @@
+{
+  "name": "repro-electron-quick-look-window-unclosable",
+  "version": "0.0.1",
+  "description": "Unable to close the quick look window opened from a file upload popup",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoubin/repro-electron-quick-look-window-unclosable.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zoubin/repro-electron-quick-look-window-unclosable/issues"
+  },
+  "homepage": "https://github.com/zoubin/repro-electron-quick-look-window-unclosable#readme",
+  "devDependencies": {
+    "electron": "^1.5.0"
+  }
+}
