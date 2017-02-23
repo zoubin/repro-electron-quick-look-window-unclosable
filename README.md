@@ -5,7 +5,7 @@ Environment:
 
 ## How to reproduce the problem
 
-1. Clone the repro repo and run `npm install`:
+Clone the repro repo and run `npm install`:
 
 ```bash
 git clone https://github.com/zoubin/repro-electron-quick-look-window-unclosable.git
@@ -14,13 +14,13 @@ npm install
 
 ```
 
-2. Start the demo with `npm start`
-3. Click the file upload button to trigger the popup
+1. Start the demo with `npm start`
+2. Click the file upload button to trigger the popup
 ![1](1.png)
 
-4. Choose the `numbers` file given in the repo and click `Quick Look`
+3. Choose the `numbers` file given in the repo and click `Quick Look`
 ![2](2.png)
 
-5. Now you will find the **close** button on the upper left is not clickable.
+4. Now you will find the **close** button on the upper left is not clickable.
 ![3](3.png)
 
